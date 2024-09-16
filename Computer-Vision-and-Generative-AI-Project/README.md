@@ -21,6 +21,7 @@ The Segment Anything Model (SAM) generates a mask around the specified object, s
 
 ## Interactive app
 
+![](https://github.com/1Px-Vision/Generative-AI/blob/main/Computer-Vision-and-Generative-AI-Project/Result_app.jpg)
 
 
 
