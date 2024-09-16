@@ -9,6 +9,17 @@ The Segment Anything Model (SAM) generates a mask around the specified object, s
 * This README.md file
 
 
+## Results
+
+![](https://github.com/1Px-Vision/Generative-AI/blob/main/Computer-Vision-and-Generative-AI-Project/Result_generative_AI.jpg)
+
+
+* Showcase expertise in loading and utilizing the Segment Anything Model (SAM) for object segmentation.
+* Demonstrate the ability to load a pre-trained **AutoPipelineForInpainting** from the diffusers library.
+* Use the interactive app to illustrate how to run SAM for segmenting a subject and replacing the background or the subject itself using text prompts.
+
+
+
 
 
 
