@@ -19,6 +19,7 @@ The Segment Anything Model (SAM) generates a mask around the specified object, s
 * Use the interactive app to illustrate how to run SAM for segmenting a subject and replacing the background or the subject itself using text prompts.
 
 
+## Interactive app
 
 
 
