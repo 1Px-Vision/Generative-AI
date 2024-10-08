@@ -28,7 +28,13 @@ pip install openai langchain
   *   EvaluateMathExpression is a custom tool defined to evaluate mathematical expressions using Python's eval function.
   *  **Agent Initialization:** The agent is initialized with the tool for evaluating mathematical expressions. The agent uses OpenAI's GPT model and interacts 
         with it through a prompt that instructs the model to always rely on available tools for math calculations.
-4. Modify and Extend:
+4. **Modify and Extend:**
     * You can modify the tools, the memory buffer, and prompts to handle other tasks such as data fetching, file handling, or more complex math evaluations.
     * The agent can handle more complex conversations by extending the memory buffer or by adding more tools.
 
+## Example Execution
+Upon running the provided code, the agent will:
+1. Solve the expression ````2 * 2 * 0.13 - 1.001 ```` using the EvaluateMathExpression tool.
+2. It will reprocess the same query but using a system prompt that forces it to always use the provided tools for solving math expressions, regardless of the model's internal abilities.
+
+## Code Explanation
