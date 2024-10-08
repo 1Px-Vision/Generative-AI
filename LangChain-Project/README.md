@@ -38,3 +38,7 @@ Upon running the provided code, the agent will:
 2. It will reprocess the same query but using a system prompt that forces it to always use the provided tools for solving math expressions, regardless of the model's internal abilities.
 
 ## Code Explanation
+* **API Key:** You need to input your OpenAI API key to allow the GPT model to be used.
+* **Custom Tool:** The EvaluateMathExpression class defines a tool that can run simple mathematical expressions using Python's eval function.
+* **Agent:** The agent is initialized with a list of tools and the LLM model. It uses conversational memory to remember the last few interactions.
+* **Prompt Adjustment:** The system prompt is adjusted to ensure the model doesn't attempt to solve math by itself and always refers to the EvaluateMathExpression tool.
