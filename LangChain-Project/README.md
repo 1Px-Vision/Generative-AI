@@ -1,7 +1,5 @@
 # Langchain Agent Project
-
-
-## Project Overview
+### Project Overview
 This project demonstrates the use of Langchain's agent framework to build a conversational agent that can solve basic mathematical expressions using the OpenAI API ```` LangChain_LLM_Math.ipynb   ````. It utilizes tools from Langchain to set up the agent and memory buffers, allowing the model to persist context across interactions and handle specific queries, such as mathematical evaluations, by delegating the task to a custom tool.
 
 
