@@ -15,3 +15,8 @@ The dataset contains two columns:
 
 * **tweet:** Each row contains the text of a tweet that originally included an emoji, but the emoji has been removed.
 * **emoji:** Each row provides the name of the emoji that corresponds to the text in the tweet column.
+
+
+## Conclusions
+
+It's evident that the GPT-2 approach performed better for this particular task and dataset, indicating that fine-tuning does not always lead to higher accuracy. The dataset contained multiple labels, and if it had been structured for tasks like sentiment analysis (e.g., positive or negative), the hyperparameters might have been more effective and could have contributed to improving PEFT's accuracy. Additionally, increasing the number of epochs might have provided further insights or potentially enhanced accuracy.
