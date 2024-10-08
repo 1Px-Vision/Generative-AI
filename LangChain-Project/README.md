@@ -42,3 +42,7 @@ Upon running the provided code, the agent will:
 * **Custom Tool:** The  ```` EvaluateMathExpression ```` class defines a tool that can run simple mathematical expressions using Python's  ```` eval  ```` function.
 * **Agent:** The agent is initialized with a list of tools and the LLM model. It uses conversational memory to remember the last few interactions.
 * **Prompt Adjustment:** The system prompt is adjusted to ensure the model doesn't attempt to solve math by itself and always refers to the  ```` EvaluateMathExpression  ```` tool.
+
+## How to Customize
+* **Adding More Tools:** You can add more tools by extending the BaseTool class and adding them to the tools list when initializing the agent.
+* **Custom Memory Management:** You can adjust how much context the agent remembers by changing the k value in ConversationBufferWindowMemory.
