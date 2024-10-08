@@ -16,6 +16,21 @@ The dataset contains two columns:
 * **tweet:** Each row contains the text of a tweet that originally included an emoji, but the emoji has been removed.
 * **emoji:** Each row provides the name of the emoji that corresponds to the text in the tweet column.
 
+## Overall Summary
+
+| Metric               | GPT-2       | PEFT        |
+|----------------------|-------------|-------------|
+| Training Loss        | 1.5625      | 1.9241      |
+| Validation Loss      | 1.5016      | 1.9065      |
+| Accuracy             | 47.32%      | 33.87%      |
+| F1 Score             | 46.14%      | 28.86%      |
+| Precision            | 51.27%      | 40.97%      |
+| Recall               | 47.32%      | 33.87%      |
+| Training Duration    | 1 hr 33 min | 1 hr 25 min |
+| Eval Runtime         | 3 min 28 sec| 3 min 39 sec|
+| Samples per Second   | 108.258     | 102.473     |
+| Steps per Second     | 1.696       | 1.605       |
+| Epoch                | 1.0         | 1.0         |
 
 ## Conclusions
 
