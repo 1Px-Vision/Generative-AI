@@ -22,13 +22,13 @@ pip install openai langchain
    OPENAI_API_KEY = 'your OpenAI API key here'
    ````
 2.  **Run the Agent:** The agent is initialized with a simple mathematical evaluation tool to evaluate basic math expressions. To run this, execute the code in any Python environment.
-3.   ## Key Components
-   Langchain Components:
-
+3.  **Key Components:** Langchain Components:
   *   ChatOpenAI is used to integrate OpenAI's GPT model (GPT-3.5-turbo).
   *   ConversationBufferWindowMemory maintains a memory buffer of the conversation, storing the last k=5 interactions.
   *   EvaluateMathExpression is a custom tool defined to evaluate mathematical expressions using Python's eval function.
   *  **Agent Initialization:** The agent is initialized with the tool for evaluating mathematical expressions. The agent uses OpenAI's GPT model and interacts 
         with it through a prompt that instructs the model to always rely on available tools for math calculations.
-3. Modify and Extend:
+4. Modify and Extend:
+    * You can modify the tools, the memory buffer, and prompts to handle other tasks such as data fetching, file handling, or more complex math evaluations.
+    * The agent can handle more complex conversations by extending the memory buffer or by adding more tools.
 
