@@ -10,3 +10,8 @@ In this project, we will bring together all of the essential components of a PyT
 * Perform parameter-efficient fine tuning using the pre-trained model
 * Perform inference using the fine-tuned model and compare its performance to the original model
 
+## Dataset Description
+The dataset contains two columns:
+
+* **tweet:** Each row contains the text of a tweet that originally included an emoji, but the emoji has been removed.
+* **emoji:** Each row provides the name of the emoji that corresponds to the text in the tweet column.
