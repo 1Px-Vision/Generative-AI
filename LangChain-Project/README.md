@@ -14,3 +14,11 @@ Before running the project, you must have the following installed:
 ````
 pip install openai langchain
 ````
+
+## Usage
+### Step-by-step guide
+1. **Set up OpenAI API key:** Replace the placeholder 'your OpenAI API key here' with your actual OpenAI API key in the following line:
+   ````OPENAI_API_KEY = 'your OpenAI API key here'
+   ````
+2.  **Run the Agent:** The agent is initialized with a simple mathematical evaluation tool to evaluate basic math expressions. To run this, execute the code in any Python environment.
+   
