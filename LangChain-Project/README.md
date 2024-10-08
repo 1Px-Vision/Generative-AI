@@ -44,5 +44,5 @@ Upon running the provided code, the agent will:
 * **Prompt Adjustment:** The system prompt is adjusted to ensure the model doesn't attempt to solve math by itself and always refers to the  ```` EvaluateMathExpression  ```` tool.
 
 ## How to Customize
-* **Adding More Tools:** You can add more tools by extending the BaseTool class and adding them to the tools list when initializing the agent.
-* **Custom Memory Management:** You can adjust how much context the agent remembers by changing the k value in ConversationBufferWindowMemory.
+* **Adding More Tools:** You can add more tools by extending the ```` BaseTool ```` class and adding them to the ```` tools ```` list when initializing the agent.
+* **Custom Memory Management:** You can adjust how much context the agent remembers by changing the ```` k  ```` value in ```` ConversationBufferWindowMemory ````.
