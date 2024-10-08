@@ -46,3 +46,11 @@ Upon running the provided code, the agent will:
 ## How to Customize
 * **Adding More Tools:** You can add more tools by extending the ```` BaseTool ```` class and adding them to the ```` tools ```` list when initializing the agent.
 * **Custom Memory Management:** You can adjust how much context the agent remembers by changing the ```` k  ```` value in ```` ConversationBufferWindowMemory ````.
+
+## Example Output
+Here is an example output:
+```` 
+System message: Unfortunately, Assistant is terrible at maths. Assistant should always refer to available tools and never try to answer math questions by itself.
+Agent: Evaluating expression 2 * 2 * 0.13 - 1.001 using Math Evaluation tool.
+Result: -0.481
+````
