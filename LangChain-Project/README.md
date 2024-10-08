@@ -54,3 +54,6 @@ System message: Unfortunately, Assistant is terrible at maths. Assistant should 
 Agent: Evaluating expression 2 * 2 * 0.13 - 1.001 using Math Evaluation tool.
 Result: -0.481
 ````
+
+## Conclusion
+This project serves as a basic template for building an agent that interacts with an LLM and uses custom tools to handle specific tasks. It also shows how to manage memory and prompts within Langchain's ecosystem.
